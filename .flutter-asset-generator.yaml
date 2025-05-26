@@ -1,0 +1,3 @@
+input: assets/
+output: lib/gen/assets.gen.dart
+package: lifexp
