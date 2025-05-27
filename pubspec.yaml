@@ -1,23 +1,24 @@
-name: lifexp
-description: LifeXP app to track tasks and XP.
-publish_to: 'none'
-version: 1.0.0+1
+name: life_xp
+description: A new Flutter project.
+publish_to: 'none' # want dit is lokaal
 
 environment:
-  sdk: ">=2.19.0 <3.0.0"
+  sdk: '^3.8.0'
 
 dependencies:
   flutter:
     sdk: flutter
-  cupertino_icons: ^1.0.5
+  cupertino_icons: ^1.0.2
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^2.0.0
+  flutter_lints: ^3.0.0
 
 flutter:
   uses-material-design: true
+
   assets:
-    - assets/images/
-    - assets/icons/
+    - assets/images/tree_level1.png
+    - assets/images/tree_level2.png
+    - assets/images/tree_level3.png
